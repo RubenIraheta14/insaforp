@@ -19,15 +19,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-//Route::apiResource('/cursos', CursosController::class);
-//Route::apiResource('/asistencia', AsistenciaController::class);
 Route::apiResource('/asistencia', App\Http\Controllers\AsistenciaController::class);
-
-
 Route::apiResource('/cursos', App\Http\Controllers\CursosController::class);
+Route::apiResource('/alumno', App\Http\Controllers\AlumnoController::class);
+
 
 

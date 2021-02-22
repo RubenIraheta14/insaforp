@@ -4,6 +4,15 @@ namespace App\Http\Controllers;
 
 use App\Models\Asistencia;
 use Illuminate\Http\Request;
+use App\Http\Requests\AsisRequest;
+
+
+ /**
+     * Store a newly created resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
+     */
 
 class AsistenciaController extends Controller
 {
@@ -14,20 +23,16 @@ class AsistenciaController extends Controller
      */
     public function index()
     {
-        return Asistencia::get();
+       return Asistencia::get();
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
+   
     
     public function store(Request $request)
     {
         $asistencia = new Asistencia;
         $asistencia->create($request->all());
+        
     }
 
     /**
@@ -60,8 +65,15 @@ class AsistenciaController extends Controller
      * @return \Illuminate\Http\Response
      */
 
-    public function destroy(Asistencia $asistencia)
+    public function destroy($id)
     {
+
+        $asistencia = Asistencia::find($id);
         $asistencia->delete();
+
+        return response()->json('The book successfully deleted');
+
     }
+    
+
 }

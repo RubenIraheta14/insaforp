@@ -25,7 +25,7 @@ class AsistenciaFactory extends Factory
             'dia' => $this->faker->date(),
             'inicio' => $this->faker->paragraph(),
             'fin' => $this->faker->paragraph(),
-            'id_curso' => $this->faker->numberBetween(0,6),
+            'id_curso' => $this->faker->paragraph(),
     
         ];
     }

@@ -23,7 +23,6 @@ class CursosFactory extends Factory
     {
         return [
             'nombre' => $this->faker->name,
-            'descripcion' => $this->faker->paragraph(),
             'inicio' => $this->faker->date(),
             'fin' => $this->faker->date(),
             'departamento' => $this->faker->paragraph(),
