@@ -757,8 +757,12 @@
                     </tr>
                   </tbody>
                 </table>
+
               </div>
+
             </form>
+            
+
           </div>
           <div
             class="tab-pane fade"
@@ -766,7 +770,15 @@
             role="tabpanel"
             aria-labelledby="v-pills-messages-tab"
           >
-            .y.
+           <main role="main" class="container">
+      <h1 class="mt-5" style=" font-weight: bold;">Oops!</h1>
+      <p class="lead">Lo sentimos mucho esta sección aun esta en diseño y desarrollo! </p>
+      <p>Use <a href="https://www.insaforp.org.sv/">Insaforp.org</a> si necesita conocer más.</p>
+       <img src="https://www.artzstudio.com/wp-content/uploads/2020/05/404-error-not-found-page-lost-1024x788.png" 
+                        width="425" height="250" class="d-inline-block align-top" >
+    </main>
+              
+
           </div>
           <div
             class="tab-pane fade"
@@ -774,7 +786,15 @@
             role="tabpanel"
             aria-labelledby="v-pills-settings-tab"
           >
-            ...
+                 <main role="main" class="container">
+      <h1 class="mt-5" style=" font-weight: bold;">Oops!</h1>
+      <p class="lead">Lo sentimos mucho esta sección aun esta en diseño y desarrollo! </p>
+      <p>Use <a href="https://www.insaforp.org.sv/">Insaforp.org</a> si necesita conocer más.</p>
+       <img src="https://www.artzstudio.com/wp-content/uploads/2020/05/404-error-not-found-page-lost-1024x788.png" 
+                        width="425" height="250" class="d-inline-block align-top" >
+    </main>
+              
+
           </div>
         </div>
       </div>

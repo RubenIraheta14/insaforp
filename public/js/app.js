@@ -2650,6 +2650,26 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
@@ -40936,31 +40956,9 @@ var render = function() {
               ]
             ),
             _vm._v(" "),
-            _c(
-              "div",
-              {
-                staticClass: "tab-pane fade",
-                attrs: {
-                  id: "v-pills-messages",
-                  role: "tabpanel",
-                  "aria-labelledby": "v-pills-messages-tab"
-                }
-              },
-              [_vm._v("\n          .y.\n        ")]
-            ),
+            _vm._m(33),
             _vm._v(" "),
-            _c(
-              "div",
-              {
-                staticClass: "tab-pane fade",
-                attrs: {
-                  id: "v-pills-settings",
-                  role: "tabpanel",
-                  "aria-labelledby": "v-pills-settings-tab"
-                }
-              },
-              [_vm._v("\n          ...\n        ")]
-            )
+            _vm._m(34)
           ]
         )
       ])
@@ -41578,6 +41576,104 @@ var staticRenderFns = [
         attrs: { type: "checkbox", id: "exampleCheck1" }
       })
     ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "tab-pane fade",
+        attrs: {
+          id: "v-pills-messages",
+          role: "tabpanel",
+          "aria-labelledby": "v-pills-messages-tab"
+        }
+      },
+      [
+        _c("main", { staticClass: "container", attrs: { role: "main" } }, [
+          _c(
+            "h1",
+            { staticClass: "mt-5", staticStyle: { "font-weight": "bold" } },
+            [_vm._v("Oops!")]
+          ),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead" }, [
+            _vm._v(
+              "Lo sentimos mucho esta sección aun esta en diseño y desarrollo! "
+            )
+          ]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v("Use "),
+            _c("a", { attrs: { href: "https://www.insaforp.org.sv/" } }, [
+              _vm._v("Insaforp.org")
+            ]),
+            _vm._v(" si necesita conocer más.")
+          ]),
+          _vm._v(" "),
+          _c("img", {
+            staticClass: "d-inline-block align-top",
+            attrs: {
+              src:
+                "https://www.artzstudio.com/wp-content/uploads/2020/05/404-error-not-found-page-lost-1024x788.png",
+              width: "425",
+              height: "250"
+            }
+          })
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "tab-pane fade",
+        attrs: {
+          id: "v-pills-settings",
+          role: "tabpanel",
+          "aria-labelledby": "v-pills-settings-tab"
+        }
+      },
+      [
+        _c("main", { staticClass: "container", attrs: { role: "main" } }, [
+          _c(
+            "h1",
+            { staticClass: "mt-5", staticStyle: { "font-weight": "bold" } },
+            [_vm._v("Oops!")]
+          ),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead" }, [
+            _vm._v(
+              "Lo sentimos mucho esta sección aun esta en diseño y desarrollo! "
+            )
+          ]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v("Use "),
+            _c("a", { attrs: { href: "https://www.insaforp.org.sv/" } }, [
+              _vm._v("Insaforp.org")
+            ]),
+            _vm._v(" si necesita conocer más.")
+          ]),
+          _vm._v(" "),
+          _c("img", {
+            staticClass: "d-inline-block align-top",
+            attrs: {
+              src:
+                "https://www.artzstudio.com/wp-content/uploads/2020/05/404-error-not-found-page-lost-1024x788.png",
+              width: "425",
+              height: "250"
+            }
+          })
+        ])
+      ]
+    )
   }
 ]
 render._withStripped = true
